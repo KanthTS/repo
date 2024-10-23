@@ -8,9 +8,9 @@ function addNewTask(taskObj)
 {
    setTask([...task,taskObj.newTask]);
    
-console.log(taskObj);
-}
 
+}
+console.log(taskObj);
   return (
     <div>
    <h2>ADD TASK</h2>
