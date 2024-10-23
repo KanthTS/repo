@@ -1,19 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import First from'./components/First';
-import Event from './components/handling events/Event';
-import State from './components/handling events/State';
-import Side from './components/handling events/Side';
+// import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
+// import './App.css'
+// import First from'./components/First';
+// import Event from './components/handling events/Event';
+// import State from './components/handling events/State';
+// import Side from './components/handling events/Side';
+
+import Manage from "./components/Manage"
+
 function App() {
   
   return (
     <div>
-    <First/>
+    {/* <First/>
     <Event/>
     <State/>
-    <Side/>
+    <Side/> */}
+    <Manage/>
     </div>
   )
 }
